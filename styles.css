@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Shnobel';
+    src: url(./src/fonts/Shnobel-Regular.otf);
+    font-weight: 400;
+}
+
+body {
+    background-color: #10132F;
+    color: #fff;
+    font-family: 'Bellota Text', cursive;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header {
+    margin: 3rem auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1416px;
+}
+
+.header__icon {
+    width: 228px;
+    height: 48px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.header__nav__items {
+    width: 519px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header__buttons {
+    display: flex;
+    margin-right: 8rem;
+}
+
+.header__log_in {
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+
+.header__log_in__btn {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Bellota Text', cursive;
+}
+
+.header__sign_in {
+    border: 2px solid #2F80EC;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Bellota Text', cursive;
+    padding: 0.9rem 2rem;
+}
+
+.main__p1 {
+    font-family: 'Shnobel', sans-serif;
+    font-size: 1.4rem;
+    margin-top: 0;
+}
+
+.main__info {
+    display: flex;
+    justify-content: start;
+    margin: auto;
+    max-width: 1416px;
+}
+
+.main__text {
+    margin-top: 14rem;
+    width: 600px;
+}
+
+.main__h2 {
+    font-family: 'Bellota Text', cursive;
+    font-weight: 700;
+    font-size: 2.9rem;
+    line-height: 60px;
+    margin-top: 0;
+}
+
+.main__to_know {
+    margin-top: 1rem;
+    padding: 1.1rem 3.5rem;
+    background-color: #2F80EC;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.main__img {
+    position: relative;
+    margin-top: 6rem;
+}
+
+.main__img_parents {
+    position: absolute;
+    margin-left: -9.5rem;
+}
+
+.main__img_stars {
+    position: absolute;
+    left: -14.3rem;
+    top: 1.5rem;
+}
+
+.sleep__normalize {
+    margin: 19rem auto 0 auto;
+    max-width: 1416px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sleep__p {
+    font-family: 'Shnobel', sans-serif;
+    font-size: 1.4rem;
+}
+
+.sleep__h2 {
+    font-family: 'Bellota Text', cursive;
+    font-weight: 700;
+    font-size: 2.9rem;
+    margin-top: 0;
+}
+
+.sleep__img_and_p {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 12.5rem;
+}
+
+.instruction {
+    margin: 3.4rem auto 3rem auto;
+    max-width: 1700px;
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.instruction__item {
+    padding: 1rem 6.5rem 2rem 2rem;
+    background-color: #191B2D;
+    border-radius: 6px;
+}
+
+.instruction__h3 {
+    font-family: 'Bellota Text', cursive;
+    font-size: 2rem;
+    font-weight: 700;
+}
