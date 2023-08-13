@@ -21,7 +21,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 88.5rem;
+    max-width: 80.75rem;
 }
 
 .header__icon {
@@ -45,7 +45,6 @@ li {
 
 .header__buttons {
     display: flex;
-    margin-right: 8rem;
 }
 
 .header__log_in {
@@ -80,14 +79,17 @@ li {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    max-width: 88.5rem;
-
+    max-width: 80.75rem;
+    background-image: url('./src/images/Group\ 37160.png');
+    background-repeat: no-repeat;
+    background-position: bottom -3.125rem right -4.555rem;
 }
 
 .main__text {
     margin-top: 14rem;
     width: 37.5rem;
     flex-basis: 37rem;
+    margin-bottom: 20rem;
 }
 
 .main__h2 {
@@ -106,16 +108,20 @@ li {
     border-radius: 0.5rem;
 }
 
-.main__img {
+/* .main__img {
     margin-top: 6rem;
-    flex-basis: calc(100% - 31.875rem);
+
     margin-left: -9rem;
     padding-right: 4rem;
     position: relative;
+    flex-basis: calc(100% - 31.875rem);
 }
 
 .main__img_parents {
     width: 100%;
+    margin-top: 6rem;
+    margin-left: -9rem;
+    padding-right: 4rem;
 }
 
 .main__img_stars {
@@ -123,11 +129,11 @@ li {
     width: 90%;
     left: -5rem;
     top: 1.5rem;
-}
+} */
 
 .sleep__normalize {
-    margin: -4rem auto 0 auto;
-    max-width: 88.5rem;
+    margin: -1rem auto 0 auto;
+    max-width: 80.75rem;
     display: flex;
     justify-content: space-between;
 }
@@ -148,7 +154,7 @@ li {
     display: flex;
     align-items: center;
     gap: 2rem;
-    padding-right: 12.5rem;
+    padding-right: 4.5rem;
     margin-top: -2rem;
 }
 
