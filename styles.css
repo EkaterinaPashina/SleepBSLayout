@@ -21,19 +21,19 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1416px;
+    max-width: 88.5rem;
 }
 
 .header__icon {
-    width: 228px;
-    height: 48px;
+    width: 14.25rem;
+    height: 3rem;
     max-width: 100%;
     height: auto;
     object-fit: cover;
 }
 
 .header__nav__items {
-    width: 519px;
+    width: 32.438rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,21 +78,23 @@ li {
 
 .main__info {
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     margin: auto;
-    max-width: 1416px;
+    max-width: 88.5rem;
+
 }
 
 .main__text {
     margin-top: 14rem;
-    width: 600px;
+    width: 37.5rem;
+    flex-basis: 37rem;
 }
 
 .main__h2 {
     font-family: 'Bellota Text', cursive;
     font-weight: 700;
     font-size: 2.9rem;
-    line-height: 60px;
+    line-height: 3.75rem;
     margin-top: 0;
 }
 
@@ -101,28 +103,31 @@ li {
     padding: 1.1rem 3.5rem;
     background-color: #2F80EC;
     color: #fff;
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 
 .main__img {
-    position: relative;
     margin-top: 6rem;
+    flex-basis: calc(100% - 31.875rem);
+    margin-left: -9rem;
+    padding-right: 4rem;
+    position: relative;
 }
 
 .main__img_parents {
-    position: absolute;
-    margin-left: -9.5rem;
+    width: 100%;
 }
 
 .main__img_stars {
     position: absolute;
-    left: -14.3rem;
+    width: 90%;
+    left: -5rem;
     top: 1.5rem;
 }
 
 .sleep__normalize {
-    margin: 19rem auto 0 auto;
-    max-width: 1416px;
+    margin: -4rem auto 0 auto;
+    max-width: 88.5rem;
     display: flex;
     justify-content: space-between;
 }
@@ -144,11 +149,12 @@ li {
     align-items: center;
     gap: 2rem;
     padding-right: 12.5rem;
+    margin-top: -2rem;
 }
 
 .instruction {
     margin: 3.4rem auto 3rem auto;
-    max-width: 1700px;
+    max-width: 106.25rem;
     display: flex;
     justify-content: space-between;
     gap: 4rem;
@@ -157,7 +163,7 @@ li {
 .instruction__item {
     padding: 1rem 6.5rem 2rem 2rem;
     background-color: #191B2D;
-    border-radius: 6px;
+    border-radius: 0.5rem;
 }
 
 .instruction__h3 {
